@@ -41,6 +41,10 @@ bool CheckServerType()
         }
         RegCloseKey(l_hKey);
     }
+    else
+    {
+        std::cout<<"fffhfh"<<std::endl;
+    }
 
     return DEVELOPMENT_SERVER;
 }
